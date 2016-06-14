@@ -1,1 +1,33 @@
-/build
+# 1.作用:控制整个仓库或者是某一个目录中的文件,哪些忽略掉,不进行提交
+# 2.通常,创建工程的时候,建议设置这个内容.
+# 3.*代表任意字符
+# 4.!在前代表取反
+
+#IntelliJ IDEAproject files  项目的配置文件
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea/
+/.idea/workspace.xml
+/.idea/libraries
+
+#out目录
+out/
+
+#Eclipse Project files
+.classpath
+.project
+.settings/
+
+#Android build
+bin/
+local.properties
+build/
+.gradle
+.gradle.idea/
+
+#OS auto gen  windows图片预览时产生的文件  Thumbs.db  苹果系统产生的文件.DS_Store
+Thumbs.db
+.DS_Store
+
