@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!--name属性名取阅读性高的名字-->
     <declare-styleable name="MutiView">
+        <!--name属性名取阅读性高的名字   reference是资源文件id-->
         <attr name="src" format="reference"/>
+        <attr name="textColor" format="color"/>
     </declare-styleable>
 </resources>

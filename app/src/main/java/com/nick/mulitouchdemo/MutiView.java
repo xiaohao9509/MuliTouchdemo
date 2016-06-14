@@ -132,6 +132,7 @@ public class MutiView extends View {
 //        mBitmap = BitmapFactory.decodeResource(getResources(), R.mipmap.ic_launcher);
         TypedArray array = context.obtainStyledAttributes(attrs, R.styleable.MutiView);
         Drawable drawable = array.getDrawable(R.styleable.MutiView_src);
+        int color = array.getColor(R.styleable.MutiView_textColor, 0x000);
         if (drawable != null && drawable instanceof BitmapDrawable) {
             mBitmap = ((BitmapDrawable) drawable).getBitmap();
         }
